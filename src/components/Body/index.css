@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.body-navbar-container {
+  width: 30%;
+  background-color: #cbd5e1;
+  padding: 20px;
+}
+
+.body-content-container {
+  background-color: #e2e8f0;
+  padding: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.body-content-title {
+  font-size: 20px;
+}
+
+.navbar-items {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.right-navbar-content-container {
+  border: 1px solid #475569;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+@media screen and (min-width: 768px) {
+  .right-navbar-content-container {
+    height: 150px;
+  }
+}

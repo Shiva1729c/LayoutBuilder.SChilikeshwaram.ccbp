@@ -1,0 +1,11 @@
+/* Write your CSS here */
+
+.layout-container {
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-container {
+  margin-top: 50px;
+  width: 90%;
+}
